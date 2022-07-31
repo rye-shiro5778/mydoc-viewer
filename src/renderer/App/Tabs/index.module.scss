@@ -1,0 +1,23 @@
+.tabs {
+  .tabBar {
+    display: flex;
+    cursor: pointer;
+
+    .tabTitle {
+      border-top: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: white;
+      padding: 8px 4px;
+      width: 120px;
+      overflow: hidden;
+    }
+
+    .tabActive {
+      background-color: bisque;
+    }
+  }
+}
